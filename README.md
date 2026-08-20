@@ -1,6 +1,6 @@
 # Fulcrum
 
-Fulcrum is a production-grade Rust backend for managing leveraged positions on tokenized real-world assets (RWAs). It coordinates multi-step on-chain settlement workflows across bridge financing, Morpho collateral, and stablecoin borrowing — and continuously monitors open positions to protect them from liquidation.
+Fulcrum is an experimental Rust backend for managing leveraged positions on tokenized real-world assets (RWAs). It coordinates multi-step on-chain settlement workflows across bridge financing, Morpho collateral, and stablecoin borrowing — and continuously monitors open positions to protect them from liquidation.
 
 The name comes from physics: a **fulcrum** is the pivot point of a lever. This service is the pivot point between user intent and on-chain leverage.
 

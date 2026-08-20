@@ -1,0 +1,21 @@
+[package]
+name    = "orchestrator"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+common.path = "../common"
+db.path     = "../db"
+chain.path  = "../chain"
+
+tokio.workspace      = true
+tokio-util.workspace = true
+tokio-retry.workspace = true
+async-trait.workspace = true
+tracing.workspace    = true
+thiserror.workspace  = true
+serde.workspace      = true
+serde_json.workspace = true
+uuid.workspace       = true
+rust_decimal.workspace = true
+sqlx.workspace       = true

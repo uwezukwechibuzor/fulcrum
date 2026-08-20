@@ -1,0 +1,12 @@
+/Users/chibuzor/3FLabs/3f-engine/target/debug/deps/sqlx-37d539a6de1d8962.d: /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.rs /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/mod.rs /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/mod.rs /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/ty_match.rs /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/spec_error.rs /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.md /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/test.md /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/install_drivers_note.md
+
+/Users/chibuzor/3FLabs/3f-engine/target/debug/deps/libsqlx-37d539a6de1d8962.rmeta: /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.rs /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/mod.rs /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/mod.rs /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/ty_match.rs /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/spec_error.rs /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.md /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/test.md /Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/install_drivers_note.md
+
+/Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.rs:
+/Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/mod.rs:
+/Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/mod.rs:
+/Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/ty_match.rs:
+/Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/spec_error.rs:
+/Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/lib.md:
+/Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/macros/test.md:
+/Users/chibuzor/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sqlx-0.9.0/src/any/install_drivers_note.md:

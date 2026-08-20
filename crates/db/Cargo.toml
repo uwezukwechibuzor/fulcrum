@@ -1,0 +1,17 @@
+[package]
+name    = "db"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+common.path = "../common"
+
+sqlx.workspace       = true
+uuid.workspace       = true
+chrono.workspace     = true
+rust_decimal.workspace = true
+serde.workspace      = true
+serde_json.workspace = true
+thiserror.workspace  = true
+tracing.workspace    = true
+tokio.workspace      = true

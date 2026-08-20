@@ -1,0 +1,53 @@
+[workspace]
+members  = ["crates/*"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+# ── async ────────────────────────────────────────────────────────────────────
+tokio        = { version = "1",   features = ["full"] }
+tokio-util   = { version = "0.7", features = ["rt"] }
+async-trait  = "0.1"
+
+# ── web ──────────────────────────────────────────────────────────────────────
+axum         = "0.8"
+tower        = "0.5"
+tower-http   = { version = "0.6", features = ["trace", "cors", "request-id", "timeout"] }
+hyper        = { version = "1",   features = ["full"] }
+
+# ── database ─────────────────────────────────────────────────────────────────
+sqlx = { version = "0.9", features = [
+  "runtime-tokio", "tls-rustls", "postgres", "uuid", "chrono",
+  "rust_decimal", "migrate", "json"
+] }
+
+# ── ethereum ─────────────────────────────────────────────────────────────────
+alloy = { version = "2.4", features = ["full"] }
+
+# ── serialization ────────────────────────────────────────────────────────────
+serde      = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# ── errors ───────────────────────────────────────────────────────────────────
+thiserror = "2"
+anyhow    = "1"
+
+# ── types ────────────────────────────────────────────────────────────────────
+uuid          = { version = "1", features = ["v4", "serde"] }
+chrono        = { version = "0.4", features = ["serde"] }
+rust_decimal  = { version = "1",   features = ["serde-with-str"] }
+rust_decimal_macros = "1"
+
+# ── observability ────────────────────────────────────────────────────────────
+tracing            = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
+
+# ── config ───────────────────────────────────────────────────────────────────
+config   = "0.14"
+dotenvy  = "0.15"
+
+# ── misc ─────────────────────────────────────────────────────────────────────
+tokio-retry = "0.3"
